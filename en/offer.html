@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Offer | Top Marketing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-contact">
+                <span><i class="fa-solid fa-phone"></i> +48 22 811 57 02</span>
+                <span><i class="fa-solid fa-envelope"></i> info@topmarketing.com.pl</span>
+            </div>
+            <div class="language-switch">
+                <a href="/en/offer.html" class="active">EN</a> | <a href="/offer.html">PL</a>
+            </div>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="index.html" class="logo"><img src="logo.png" alt="Top Marketing" onerror="this.outerHTML='<h2>TOP MARKETING</h2>'"></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fa-solid fa-bars"></i></button>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="offer.html" class="active">Offer <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="offer.html">Gift Sets</a></li>
+                            <li><a href="offer.html">Promotional Sweets</a></li>
+                            <li><a href="offer.html">Manufacturing of Boxes</a></li>
+                            <li><a href="offer.html">Co-packing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="catalogs.html">Catalogs</a></li>
+                    <li><a href="contact.html" class="nav-btn">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Offer</h1>
+            <p>Comprehensive promotional and packaging services.</p>
+        </div>
+    </section>
+
+    <section class="grid-section">
+        <div class="container content-grid">
+            <div class="card">
+                <i class="fa-solid fa-gift"></i>
+                <h3>Gift Sets</h3>
+                <p>Curated premium gift boxes tailored to your brand, perfect for holidays, employee appreciation, or VIP clients.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-candy-cane"></i>
+                <h3>Promotional Sweets</h3>
+                <p>Delicious, high-quality sweets, chocolates, and candies wrapped in your custom corporate branding.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-box-open"></i>
+                <h3>Manufacturing of Boxes</h3>
+                <p>Custom-designed packaging solutions. We manufacture boxes of all shapes and sizes to fit your exact products.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-people-carry-box"></i>
+                <h3>Co-packing</h3>
+                <p>Professional packaging, assembly, and manual insertion of goods. Let us handle the heavy lifting of your logistics.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>TOP MARKETING</h4>
+                <p>Your trusted B2B partner for promotional materials and packaging solutions.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="offer.html">Our Offer</a></li>
+                    <li><a href="catalogs.html">Catalogs</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p style="color: #cbd5e1;"><i class="fa-solid fa-location-dot" style="color: #dc2626; margin-right: 5px;"></i> ul. Kołacińska 35, 03-171 Warszawa</p>
+                <p style="color: #cbd5e1;"><i class="fa-solid fa-phone" style="color: #dc2626; margin-right: 5px;"></i> +48 22 811 57 02</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 TOP MARKETING. All rights legally protected.</p>
+        </div>
+    </footer>
+
+    <div class="chatbot-container">
+        <button id="chatbotToggle" class="chatbot-toggle"><i class="fa-solid fa-message"></i></button>
+        <div id="chatbotWindow" class="chatbot-window">
+            <div class="chatbot-header">
+                <h4>Top Marketing Support</h4>
+                <button id="chatbotClose"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div id="chatbotMessages" class="chatbot-messages">
+                <div class="message bot-message">Hi! I can answer quick questions about our services, location, or hours. How can I help?</div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatInput" placeholder="Ask a question...">
+                <button id="chatSend"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

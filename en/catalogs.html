@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogs | Top Marketing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-contact">
+                <span><i class="fa-solid fa-phone"></i> +48 22 811 57 02</span>
+                <span><i class="fa-solid fa-envelope"></i> info@topmarketing.com.pl</span>
+            </div>
+            <div class="language-switch">
+                <a href="/en/catalogs.html" class="active">EN</a> | <a href="/catalogs.html">PL</a>
+            </div>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="index.html" class="logo"><img src="logo.png" alt="Top Marketing" onerror="this.outerHTML='<h2>TOP MARKETING</h2>'"></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fa-solid fa-bars"></i></button>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="offer.html">Offer <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="offer.html">Gift Sets</a></li>
+                            <li><a href="offer.html">Promotional Sweets</a></li>
+                            <li><a href="offer.html">Manufacturing of Boxes</a></li>
+                            <li><a href="offer.html">Co-packing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="catalogs.html" class="active">Catalogs</a></li>
+                    <li><a href="contact.html" class="nav-btn">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Catalogs</h1>
+            <p>Browse our latest collections and offerings.</p>
+        </div>
+    </section>
+
+    <section class="grid-section">
+        <div class="container content-grid">
+            <div class="card" style="padding: 20px;">
+                <div style="height: 250px; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 10px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center;">
+                    <i class="fa-solid fa-file-pdf fa-3x" style="color: #dc2626; margin: 0;"></i>
+                </div>
+                <h3 style="margin-bottom: 10px;">Bestseller 2024</h3>
+                <a href="#" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem; margin: 0;">Download PDF</a>
+            </div>
+
+            <div class="card" style="padding: 20px;">
+                <div style="height: 250px; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 10px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center;">
+                    <i class="fa-solid fa-file-pdf fa-3x" style="color: #dc2626; margin: 0;"></i>
+                </div>
+                <h3 style="margin-bottom: 10px;">Power of Color</h3>
+                <a href="#" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem; margin: 0;">Download PDF</a>
+            </div>
+
+            <div class="card" style="padding: 20px;">
+                <div style="height: 250px; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 10px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center;">
+                    <i class="fa-solid fa-file-pdf fa-3x" style="color: #dc2626; margin: 0;"></i>
+                </div>
+                <h3 style="margin-bottom: 10px;">Boxed & Fitted</h3>
+                <a href="#" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem; margin: 0;">Download PDF</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>TOP MARKETING</h4>
+                <p>Your trusted B2B partner for promotional materials and packaging solutions.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="offer.html">Our Offer</a></li>
+                    <li><a href="catalogs.html">Catalogs</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p style="color: #cbd5e1;"><i class="fa-solid fa-location-dot" style="color: #dc2626; margin-right: 5px;"></i> ul. Kołacińska 35, 03-171 Warszawa</p>
+                <p style="color: #cbd5e1;"><i class="fa-solid fa-phone" style="color: #dc2626; margin-right: 5px;"></i> +48 22 811 57 02</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 TOP MARKETING. All rights legally protected.</p>
+        </div>
+    </footer>
+
+    <div class="chatbot-container">
+        <button id="chatbotToggle" class="chatbot-toggle"><i class="fa-solid fa-message"></i></button>
+        <div id="chatbotWindow" class="chatbot-window">
+            <div class="chatbot-header">
+                <h4>Top Marketing Support</h4>
+                <button id="chatbotClose"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div id="chatbotMessages" class="chatbot-messages">
+                <div class="message bot-message">Hi! I can answer quick questions about our services, location, or hours. How can I help?</div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatInput" placeholder="Ask a question...">
+                <button id="chatSend"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

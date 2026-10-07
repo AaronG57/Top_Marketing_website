@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O nas | Top Marketing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-contact">
+                <span><i class="fa-solid fa-phone"></i> +48 22 811 57 02</span>
+                <span><i class="fa-solid fa-envelope"></i> info@topmarketing.com.pl</span>
+            </div>
+            <div class="language-switch">
+                <a href="en/about.html">EN</a> | <a href="about.html" class="active">PL</a>
+            </div>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="index.html" class="logo"><img src="../logo.png" alt="Top Marketing" onerror="this.outerHTML='<h2>TOP MARKETING</h2>'"></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fa-solid fa-bars"></i></button>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html">Strona główna</a></li>
+                    <li><a href="about.html" class="active">O nas</a></li>
+                    <li class="dropdown">
+                        <a href="offer.html">Oferta <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="offer.html">Zestawy upominkowe</a></li>
+                            <li><a href="offer.html">Słodycze reklamowe</a></li>
+                            <li><a href="offer.html">Produkcja pudełek</a></li>
+                            <li><a href="offer.html">Konfekcjonowanie</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="catalogs.html">Katalogi</a></li>
+                    <li><a href="contact.html" class="nav-btn">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>O nas</h1>
+            <p>Twój zaufany partner w zakresie materiałów promocyjnych B2B i konfekcjonowania.</p>
+        </div>
+    </section>
+
+    <section class="grid-section">
+        <div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 50px; align-items: center;">
+            <div>
+                <h2 style="font-size: 2rem; margin-bottom: 20px; color: #0f172a;">Kim jesteśmy</h2>
+                <p style="margin-bottom: 15px; color: #475569;">TOP MARKETING specjalizuje się w kompleksowej obsłudze firm. Dostarczamy najwyższej jakości upominki biznesowe, spersonalizowane słodycze reklamowe oraz profesjonalne rozwiązania w zakresie pakowania, dopasowane do Twojej marki.</p>
+                <p style="margin-bottom: 15px; color: #475569;">Dzięki wieloletniemu doświadczeniu nasz zespół dba o to, aby każdy produkt – od prostej czekoladki firmowej po ekskluzywny zestaw upominkowy – był wykonany z najwyższą precyzją i dostarczony na czas.</p>
+                <ul style="list-style: none; margin-top: 20px;">
+                    <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color: #dc2626; margin-right: 10px;"></i> Materiały najwyższej jakości</li>
+                    <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color: #dc2626; margin-right: 10px;"></i> Szybkie i niezawodne konfekcjonowanie</li>
+                    <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color: #dc2626; margin-right: 10px;"></i> Rozwiązania B2B szyte na miarę</li>
+                </ul>
+            </div>
+            <div style="background: #e2e8f0; height: 400px; border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                <span style="color: #94a3b8; text-align: center;"><i class="fa-solid fa-image fa-3x"></i><br>Miejsce na zdjęcie zespołu</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>TOP MARKETING</h4>
+                <p>Twój zaufany partner B2B w zakresie materiałów promocyjnych i rozwiązań opakowaniowych.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Szybkie linki</h4>
+                <ul>
+                    <li><a href="about.html">O nas</a></li>
+                    <li><a href="offer.html">Nasza oferta</a></li>
+                    <li><a href="catalogs.html">Katalogi</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Kontakt</h4>
+                <p style="color: #cbd5e1;"><i class="fa-solid fa-location-dot" style="color: #dc2626; margin-right: 5px;"></i> ul. Kołacińska 35, 03-171 Warszawa</p>
+                <p style="color: #cbd5e1;"><i class="fa-solid fa-phone" style="color: #dc2626; margin-right: 5px;"></i> +48 22 811 57 02</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 TOP MARKETING. Wszelkie prawa do materiałów zawartych na stronie prawnie chronione.</p>
+        </div>
+    </footer>
+
+    <div class="chatbot-container">
+        <button id="chatbotToggle" class="chatbot-toggle"><i class="fa-solid fa-message"></i></button>
+        <div id="chatbotWindow" class="chatbot-window">
+            <div class="chatbot-header">
+                <h4>Wsparcie Top Marketing</h4>
+                <button id="chatbotClose"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div id="chatbotMessages" class="chatbot-messages">
+                <div class="message bot-message">Cześć! Chętnie odpowiem na krótkie pytania dotyczące naszych usług, lokalizacji czy godzin otwarcia. W czym mogę pomóc?</div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatInput" placeholder="Zadaj pytanie...">
+                <button id="chatSend"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>
